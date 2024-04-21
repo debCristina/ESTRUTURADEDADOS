@@ -29,16 +29,18 @@ O código está estruturado da seguinte forma:
 * Função escreverArquivoSaida, responsável por escrever os dados no arquivo de saída.
 
 ## Formato do Arquivo de Entrada
-O arquivo de entrada deve estar no formato CSV (Comma Separated Values), onde cada linha representa os dados de um aluno com os seguintes campos:
+O arquivo de entrada `DadosEntrada.csv` deve seguir o seguinte formato:
 
-+ Nome
-+ Telefone
-+ Curso
-+ Nota 1
-+ Nota 2
+
+Nome,Telefone,Curso,Nota1,Nota2
+
+Maria,(99) 99999-9999,Engenharia,7.5,8.0
+
+João,(99) 88888-8888,Medicina,6.0,5.5
+
  
 ## Formato do Arquivo de Saída
-O arquivo de saída "SituacaoFinal.csv" conterá os resultados da seguinte forma:
+O arquivo de saída "SituacaoFinal.csv" conterá os seguintes resultados:
 
 + Nome
 + Média
